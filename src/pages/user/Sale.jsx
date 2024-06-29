@@ -80,7 +80,7 @@ const Sale = () => {
         e.preventDefault()
         setLoading(true)
         const saleDetails = []
-        ProductList.map(element => {
+        ProductList.forEach(element => {
             saleDetails.push(
                 {
                     idProduct: element.id,
