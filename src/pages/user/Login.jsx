@@ -73,7 +73,15 @@ const Login = () => {
                 <div className='flex parent items-center justify-center h-screen'>
                         <Spinner />
                 </div> :
-                <div className='parent h-screen flex flex-col items-center justify-center'>
+                <div className='parent h-screen flex flex-col items-center justify-center text-white'>
+
+                    <details className="flex flex-col gap-3">
+                        <summary> CRENDENCIALES DE PRUEBA </summary>
+                        <span>Email: apu@email.com</span>
+                        <span>Clave: 123456789</span>
+
+                    </details>
+
                     <FormCard
                         handleSubmit={handleSubmit}
                         formContent={
